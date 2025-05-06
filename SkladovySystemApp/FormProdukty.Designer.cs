@@ -51,6 +51,8 @@
             // 
             // dgvProdukty
             // 
+            this.dgvProdukty.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvProdukty.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvProdukty.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvProdukty.Location = new System.Drawing.Point(12, 44);
@@ -61,6 +63,8 @@
             // 
             // btnLoad
             // 
+            this.btnLoad.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnLoad.BackColor = System.Drawing.Color.LightGreen;
             this.btnLoad.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnLoad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
@@ -91,6 +95,8 @@
             // 
             // txtPopis
             // 
+            this.txtPopis.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPopis.Location = new System.Drawing.Point(360, 272);
             this.txtPopis.Name = "txtPopis";
             this.txtPopis.Size = new System.Drawing.Size(341, 76);
@@ -212,7 +218,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 456);
+            this.ClientSize = new System.Drawing.Size(719, 456);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.numCena);
             this.Controls.Add(this.numMnozstvi);
